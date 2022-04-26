@@ -14,4 +14,8 @@ Doivent être importés:
 -les polices
 -les icônes sur fontawesome
 
+Utilisation de VSCode pour la création du code, repo avec GITBash et VSCode. 
+
+Test des intégrations sur CHROME et FIREFOX
+
 Ceci est mon premier projet HTML/CSS.
