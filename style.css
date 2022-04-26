@@ -91,11 +91,11 @@ header{
 }
 
 .activities:hover{
-    text-decoration:underline;
+    text-decoration: overline;
 }
 
 .leaving:hover{
-    text-decoration: underline;
+    text-decoration:overline;
 }
 
 #logo__img{
@@ -125,6 +125,9 @@ h6{
     margin-bottom: 30px;
 }
 
+a:visited{
+    color:rgb(113, 152, 236);
+}
 /*header form */
 
 .header_form{
@@ -322,10 +325,24 @@ h5{
     margin-bottom: 5px;
 }
 
-.hostel img{
+.card9, .card10{
     width: 237px;
     height: 115px;
     border-radius: 16px 16px 0 0 ;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.hostel img{
+    width: 260px;
+    height: 140px;
+    border-radius: 16px 16px 0 0 ;
+}
+
+.card10 img{
+    height: 170px;
 }
 
 .hostel p:first-of-type{
@@ -404,10 +421,15 @@ h5{
     background-color: #F2F2F2;
 }
 
+.section1_title{
+    display: flex;
+    flex-direction: row;
+    padding: 42px 0 0 35px;
+}
+
 .mostpopular h3{
     width: 270px;
     height: 72px;
-    padding: 42px 0 0 35px;
     margin-top: 0;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
@@ -418,22 +440,29 @@ h5{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 0;
+    margin-top: -42px;
     width: 420px;
     height: 635px;
 
 }
 .fa.fa-line-chart{
-    position: absolute;
-    left: 1330px;
-    bottom: 400px;
     width: 65px;
     height: 30px;
     color: black;
     font-size: 1.25rem;
     font-weight:bolder;
-    margin-bottom: 0;
-    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+.card7 , .card8{
+    object-fit: cover;
+    overflow: hidden;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px 0 0 16px;
+    margin-left: 5px;
 }
 
 .cannebiere{
@@ -448,10 +477,14 @@ h5{
 }
 
 .cannebiere img{
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 180px;
     border-radius: 16px 0 0 16px;
-    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+.card8 img{
+    height: 160px;
 }
 
 .bill{
@@ -680,7 +713,7 @@ footer{
     height: 200px;
     background-color: #F2F2F2;
     color: black;
-    margin-top: -45px;
+    margin-top: -42px;
 }
 
 #footer_form{
@@ -697,6 +730,7 @@ footer{
 #footer_form p:first-of-type{
     padding-bottom: 15px;
 }
+
 aside{
     padding-top: 30px;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
@@ -717,9 +751,11 @@ aside{
     margin-left: 50px;
    
 }
+
 #footer2{
     margin-right: 67px;
 }
+
 #footer3{
     margin-right: 40px;
 }
