@@ -325,24 +325,43 @@ h5{
     margin-bottom: 5px;
 }
 
-.card9, .card10{
+.card11, .card12, .card13, .card14, .card15, .card16{
     width: 237px;
     height: 115px;
     border-radius: 16px 16px 0 0 ;
     object-fit: cover;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .hostel img{
-    width: 260px;
-    height: 140px;
-    border-radius: 16px 16px 0 0 ;
+    width: 252px;
+    height: 150px;
 }
 
-.card10 img{
-    height: 170px;
+.card12 img{
+    height: 160px;
+}
+
+.card13 img{
+    height: 160px;
+}
+
+.card14 img{
+    width: 265px;
+    height: 225px;
+}
+
+.card15 img{
+    height: 165px;
+    margin-bottom: 25px;
+}
+
+.card16 img{
+    width: 400px;
+    height: 360px;
+
 }
 
 .hostel p:first-of-type{
@@ -481,6 +500,11 @@ h5{
     height: 180px;
     border-radius: 16px 0 0 16px;
     padding-bottom: 20px;
+}
+
+.card7 img{
+    height: 200x;
+    padding-bottom: 40px;
 }
 
 .card8 img{
